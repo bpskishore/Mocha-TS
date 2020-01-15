@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "tsc && mocha dist/*.js --reporter mocha-junit-reporter"
+        "test": "tsc && mocha dist/*.js --reporter mochawesome",
+        "test_ci": "tsc && mocha dist/*.js --reporter mocha-junit-reporter"
     },
     "author": "",
     "license": "ISC",
